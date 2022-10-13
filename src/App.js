@@ -1,10 +1,15 @@
 import './App.css';
+import About from './components/About';
+import Nav from './components/Nav';
 
 function App() {
 	return (
-		<div>
-			<h1>Hello</h1>
-		</div>
+		<>
+			<Nav />
+			<main>
+				<About />
+			</main>
+		</>
 	);
 }
 
